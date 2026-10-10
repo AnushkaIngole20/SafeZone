@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="appBgColor" format="color|reference" />
+    <attr name="cardSurfaceColor" format="color|reference" />
+    <attr name="cardStrokeColor" format="color|reference" />
+    <attr name="textPrimaryColor" format="color|reference" />
+    <attr name="textSecondaryColor" format="color|reference" />
+    <attr name="statusPillBg" format="color|reference" />
+    <attr name="statusPillText" format="color|reference" />
+    <attr name="statusPillStroke" format="color|reference" />
+</resources>

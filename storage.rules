@@ -1,0 +1,30 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Deny access by default
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+
+    // Evidence Incident Photos: users/{userId}/incidents/{fileName}
+    match /users/{userId}/incidents/{fileName} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if request.auth != null 
+                    && request.auth.uid == userId 
+                    && request.resource.size < 10 * 1024 * 1024 
+                    && request.resource.contentType.matches('image/.*');
+      allow delete: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Profile Photos: users/{userId}/profile/{fileName}
+    match /users/{userId}/profile/{fileName} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if request.auth != null 
+                    && request.auth.uid == userId 
+                    && request.resource.size < 5 * 1024 * 1024 
+                    && request.resource.contentType.matches('image/.*');
+      allow delete: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}

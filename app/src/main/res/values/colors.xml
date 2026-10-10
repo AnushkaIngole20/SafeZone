@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Foundation -->
+    <color name="brand_primary">#0B1F33</color>
+    <color name="brand_accent">#2563EB</color>
+    <color name="brand_accent_light">#3B82F6</color>
+
+    <!-- Emergency Safety Colors -->
+    <color name="sos_gradient_start">#E63946</color>
+    <color name="sos_gradient_end">#C9184A</color>
+    <color name="emergency_red">#D90429</color>
+    <color name="safety_green">#10B981</color>
+    <color name="safety_green_light">#D1FAE5</color>
+    <color name="warning_amber">#F59E0B</color>
+    <color name="warning_amber_light">#FEF3C7</color>
+    <color name="police_blue">#2563EB</color>
+    <color name="police_blue_light">#DBEAFE</color>
+
+    <!-- AI Gradient Colors -->
+    <color name="ai_card_start">#0F172A</color>
+    <color name="ai_card_end">#1E293B</color>
+    <color name="ai_accent_glow">#6366F1</color>
+
+    <!-- Light Theme Semantic Colors -->
+    <color name="app_bg_light">#F8FAFC</color>
+    <color name="card_surface_light">#FFFFFF</color>
+    <color name="card_stroke_light">#E2E8F0</color>
+    <color name="text_primary_light">#0F172A</color>
+    <color name="text_secondary_light">#64748B</color>
+    <color name="status_pill_bg_light">#ECFDF5</color>
+    <color name="status_pill_text_light">#059669</color>
+    <color name="status_pill_stroke_light">#A7F3D0</color>
+
+    <!-- Dark Theme Semantic Colors -->
+    <color name="app_bg_dark">#0B1320</color>
+    <color name="card_surface_dark">#152238</color>
+    <color name="card_stroke_dark">#1E293B</color>
+    <color name="text_primary_dark">#F1F5F9</color>
+    <color name="text_secondary_dark">#94A3B8</color>
+    <color name="status_pill_bg_dark">#064E3B</color>
+    <color name="status_pill_text_dark">#34D399</color>
+    <color name="status_pill_stroke_dark">#047857</color>
+
+    <!-- Generic & Backward Compatibility -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>

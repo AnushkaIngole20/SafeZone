@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SafeZone" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/app_bg_dark</item>
+        <item name="android:navigationBarColor">@color/app_bg_dark</item>
+
+        <!-- Semantic Theme Attributes -->
+        <item name="appBgColor">@color/app_bg_dark</item>
+        <item name="cardSurfaceColor">@color/card_surface_dark</item>
+        <item name="cardStrokeColor">@color/card_stroke_dark</item>
+        <item name="textPrimaryColor">@color/text_primary_dark</item>
+        <item name="textSecondaryColor">@color/text_secondary_dark</item>
+        <item name="statusPillBg">@color/status_pill_bg_dark</item>
+        <item name="statusPillText">@color/status_pill_text_dark</item>
+        <item name="statusPillStroke">@color/status_pill_stroke_dark</item>
+    </style>
+
+</resources>
